@@ -64,4 +64,7 @@ MaarkitApi::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+
+  ENV['foursquare_client_id']     = 'P1OLAPLIBBIRIWBAF2DWPDP4ZLXZ1OMQRVVK0YPEU5DJTS5N'
+  ENV['foursquare_client_secret'] = 'YQQXQHHEWK4Z0EB3O4UPFITAHOFWHDXMFVM4ODDA345O3MQI'
 end
